@@ -1,0 +1,19 @@
+docker -v 
+docker ps / docker ps --all
+docker run hello-world
+docker run busybox ping google.com
+docker stop (Container ID)
+docker pull
+docker start
+docker system prune 
+docker run nginx
+docker exec
+docker exec -it container id sh
+docker exec -it container id bash
+docker run -p 80:80 nginx
+docker run -p 8800:80 nginx
+docker run -d -p 7800:80 nginx
+docker info
+docker images
+docker image rm ชื่อ
+docker system df
