@@ -1,0 +1,8 @@
+kubectl apply -f .\sample-pod.yml (ชื่อไฟล์.yml)
+kubectl get all
+kubectl delete pod client-pod
+docker pull imsuriyapi/todo-app:v4 
+kubectl logs client-pod
+kubectl delete all --all (ลบทั้งหมด)
+kubectl delete deployments client-deployment (ลบ deployment)
+kubectl apply -f .  ไฟล์ทั้งหมด
